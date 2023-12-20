@@ -3698,3 +3698,10 @@ span.contact-item {
   height: 0 !important;
   width: 0 !important;
 }
+
+.main-slider-carousel .owl-stage-outer .front-slider-item {
+  max-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

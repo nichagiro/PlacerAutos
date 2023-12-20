@@ -17,7 +17,7 @@
         ));
         ?>
       </div> -->
-      <div class="slider-content">
+      <div class="slider-content" >
         <?php if (function_exists('themefarmer_companion')) : ?>
           <div class="slider-content-inner main-slider-carousel owl-carousel">
             <?php
@@ -28,7 +28,7 @@
             ?>
                 <div class="front-slider-item">
                   <?php if (isset($slide['image'])) : ?>
-                    <img src="<?php echo esc_url($slide['image']); ?>" class="img-responsive img-slide" />
+                    <img src="<?php echo esc_url($slide['image']); ?>" class="img-responsive img-slide"/>
                   <?php endif; ?>
                   <div class="overlay"></div>
                   <?php if (!empty($slide['heading']) || !empty($slide['description']) || !empty($slide['button_url'])) : ?>
