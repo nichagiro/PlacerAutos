@@ -1,0 +1,47 @@
+# Ignore system files
+.DS_Store
+
+# Ignore backup and log files
+*.bak
+*.log
+
+# Ignore cache directories
+wp-content/cache/
+wp-content/upgrade/
+
+# Ignore environment configuration
+.env
+
+# Ignore Composer files (for PHP dependencies)
+vendor/
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore WordPress core files
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Ignore specific WordPress directories
+/wp-admin/
+/wp-includes/
+/wp-content/languages/
+/wp-content/plugins/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/upgrade/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+
+# Include theme and plugin code
+!wp-content/themes/
+!wp-content/themes/*
+!wp-content/plugins/
+!wp-content/plugins/*
